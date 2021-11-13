@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container delivery">
+    <h1 class="delivery__title">Где работает доставка? <a href="#"><img src="../images/icon/share.svg" alt="share"></a></h1>
+    <p class="delivery__text">Это карта лояльности с вашим номером покупателя. Она бывает пластиковой или виртуальной. При входе в приложение или на сайт достаточно указать ваш номер телефона. Если к нему привязана карта «Давайте дружить!», она будет выбрана автоматически. Если нет, будет создана новая. Номер карты виден под вашим именем на главном экране приложения и в личном кабинете на сайте.</p>
+    <p class="delivery__text">Это карта лояльности с вашим номером покупателя. Она бывает пластиковой или виртуальной. При входе в приложение или на сайт достаточно указать ваш номер телефона. Если к нему привязана карта «Давайте дружить!», она будет выбрана автоматически. Если нет, будет создана новая. Номер карты виден под вашим именем на главном экране приложения и в личном кабинете на сайте.</p>
+    <p class="delivery__text">Это карта лояльности с вашим номером покупателя. Она бывает пластиковой или виртуальной. При входе в приложение или на сайт достаточно указать ваш номер телефона. Если к нему привязана карта «Давайте дружить!», она будет выбрана автоматически. Если нет, будет создана новая. Номер карты виден под вашим именем на главном экране приложения и в личном кабинете на сайте.</p>
+    <p class="delivery__text">Это карта лояльности с вашим номером покупателя. Она бывает пластиковой или виртуальной. При входе в приложение или на сайт достаточно указать ваш номер телефона. Если к нему привязана карта «Давайте дружить!», она будет выбрана автоматически. Если нет, будет создана новая. Номер карты виден под вашим именем на главном экране приложения и в личном кабинете на сайте.</p>
+
+    <h3 class="delivery__stitle">Проблема не решилась? Свяжитесь с нами, мы поможем</h3>
+    <div class="delivery-btnsGroup">
+      
+      <button class="delivery__btn-chat"><img src="../images/icon/chat-delivery.svg" alt="chat">Онлайн-чат</button>
+      <button class="delivery__btn"><img src="../images/icon/phone-delivery.svg" alt="phone"></button>
+      <button class="delivery__btn delivery__btn-mail"><svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 2.85408V8.88461C14 9.44565 13.7695 9.98371 13.3593 10.3804C12.9491 10.7771 12.3927 11 11.8125 11H2.1875C1.60734 11 1.05094 10.7771 0.640704 10.3804C0.230468 9.98371 0 9.44565 0 8.88461V2.85408L6.77775 6.71085C6.84508 6.74925 6.92183 6.7695 7 6.7695C7.07817 6.7695 7.15492 6.74925 7.22225 6.71085L14 2.85408ZM11.8125 2.61907e-08C12.3508 -8.18366e-05 12.8701 0.191744 13.2713 0.53878C13.6725 0.885816 13.9272 1.3637 13.9869 1.881L7 5.85538L0.0131251 1.881C0.0727635 1.3637 0.327533 0.885816 0.728696 0.53878C1.12986 0.191744 1.64925 -8.18366e-05 2.1875 2.61907e-08H11.8125Z" fill="#1A1A1A"/>
+        </svg>
+        </button>
+    </div>
+  </div>
+
+  <style> 
+    .delivery__title {
+      display: flex;align-items: center;
+      font-size: 24px ;
+      font-weight: 900;
+      margin-bottom: 16px;
+    }
+    .delivery__title a img {
+      margin-left: 14px;
+    }
+    .delivery__text {
+      font-size: 15px;
+      line-height: 21px;
+      max-width: 690px;
+    }
+    .delivery__stitle {
+      margin-top: 40px;
+      margin-bottom: 17px;
+      font-size: 13px ;
+      line-height: 15.6px;
+    }
+    .delivery-btnsGroup {
+      width: 100%;
+      max-width: 336px;
+      height: 48px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .delivery__btn-chat {
+      flex: 1;
+      border-radius: 12px;
+      background: #36BA5F;
+      color: #fff;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      cursor: pointer;
+    }
+    .delivery__btn-chat img {
+      margin-right: 8px;
+    }
+    .delivery__btn {
+      margin-left: 8px;
+      width: 48px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: #F9F9F9;
+      cursor: pointer;
+    }
+    .delivery__btn svg path{
+      fill: #36BA5F;
+    }
+    @media (max-width: 300px) {
+      .delivery__btn-chat {
+        width: 100%;
+        flex: auto;
+        margin-bottom: 10px;
+      }
+      .delivery__btn {
+        margin: 0 8px 0 0 ;
+      }
+    }
+  </style>
+  
+  <script src="../js/script.js"></script>
+</body>
+</html>

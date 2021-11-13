@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,gBAAQ,CAAC;EACP,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "../pages/delivery.scss"
+    ],
+    "names": [],
+    "file": "delivery.css"
+}

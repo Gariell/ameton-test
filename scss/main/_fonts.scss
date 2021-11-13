@@ -1,0 +1,37 @@
+ 
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../font/MuseoSansCyrl-500.eot');
+  src: url('../MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+  url('../font/MuseoSansCyrl-500.woff') format('woff'),
+  url('../font/MuseoSansCyrl-500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../font/MuseoSansCyrl-700.eot');
+  src: url('../MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+  url('../font/MuseoSansCyrl-700.woff') format('woff'),
+  url('../font/MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../font/MuseoSansCyrl-900.eot');
+  src: url('../MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+  url('../font/MuseoSansCyrl-900.woff') format('woff'),
+  url('../font/MuseoSansCyrl-900.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@mixin museo {
+  font-family: 'MuseoSansCyrl', 'Times New Roman', sans-serif;
+}

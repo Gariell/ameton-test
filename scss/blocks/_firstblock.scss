@@ -1,0 +1,125 @@
+.firstblock {
+  position: relative;
+  padding: 40px 20px 54px;
+  color: #fff;
+  border-radius: 40px;
+  text-align: center;
+  overflow: hidden;
+  &__title {
+    margin-bottom: 4px;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 900;
+  }
+  &__text {
+    max-width: 540px;
+    margin: 0 auto 42px;
+    font-size: 17px;
+    line-height: 23.8px;
+  }
+  &-btnsGroup {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 664px;
+    margin: 0 auto;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: calc(25% - 6px);
+    background: #fff;
+    border-radius: 12px;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    img {
+      margin-right: 8px;
+    }
+    &:hover {
+      transition: 0.1s;
+      box-shadow: 0 0 7px 1px #ccc;
+    }
+  } 
+  &-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #93BBEA;
+    & img {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      z-index: -1;
+      &:nth-child(1) {
+        transform: translate(calc( -50% - 469px), -37%);
+      }
+      &:nth-child(2) {
+        transform: translate(calc( -50% + 461px), 0%);
+        
+      }
+    }
+
+  }
+}
+@media (max-width: 800px) {
+  .firstblock {
+    &__title {
+      font-size: 8vw;
+      line-height: 100%;
+      margin-bottom: 4vw;
+    }
+    &-btnsGroup {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__btn {
+      width: 40%;
+      margin: 0px 5px 10px;
+      font-size: 14px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .firstblock {
+    height: 570px;
+    padding-top: 14vw;
+    align-items: center;
+    &__text {
+      font-size: 14px;
+      margin-bottom: 6vw;
+    }
+    &-btnsGroup {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__btn {
+      width: 100%;
+      margin: 0px 0px 10px;
+      font-size: 14px;
+    }
+    &-bg {
+      & img {
+        bottom: 0;
+        
+        width: 40vw;
+        &:nth-child(1) {
+          transform: translate(0, 0%);
+          left: 5vw;
+          bottom: 15px;
+        }
+        &:nth-child(2) {
+          transform: translate(0, 0%);
+          left: auto;
+          right: -5vw;
+        }
+      }
+    }
+  }
+} 
